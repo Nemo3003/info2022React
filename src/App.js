@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Noticia from './Components/Noticia';
+import Expenseltem from './Components/Expenseltem';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header> */}
       <Noticia />
+      <Expenseltem />
     </div>
   );
 }
